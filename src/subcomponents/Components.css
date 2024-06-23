@@ -5,45 +5,141 @@
     width: 85%;
     gap: 100px;
     margin: 0 auto;
-    background-color: red;
 }
 .mainData .left{
     width: 50%;
+    padding: 0 20px;
 }
 .mainData .right{
     width: 50%;
+    padding: 0 20px;
 /* margin-left: 100px; */
 }
 .mainData .left-top{
     margin-bottom: 20px;
 }
 .mainData .left-top img{
-    max-width: 45px;
-    height: 45px;
+    max-width: 65px;
+    height: 65px;
 }
 .mainData .right img{
-    width: 65%;
-    aspect-ratio: 9/16;
-    object-fit: contain;
+    height: unset;
+    max-width: none;
+    width: 30rem;
 }
 h3{
-    font-size: 1.5rem;
+    font-size:2.125rem;
     font-weight: 600;
     color: #333132;
     margin-bottom: 20px;
     
 }
 p{
-    font-size: 0.625rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #333132;
     margin-bottom: 30px;
 }
 .details-box{
-    background-color: #E9EBFF;
-    border-radius: 3px;
+    margin: 40px 0 50px;
+    background: #e9ebff;
     padding: 25px;
-    font-size: 0.625rem;
-    width: 100%;
-    margin-bottom: 30px;
+}
+.details-box p{
+    font-size: .938rem;
+  
+}
+.services-top{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: url(../assets/bgImage.jpg);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: 100% 0 !important;
+    background-color: #fff !important;
+}
+.blue-color{
+    color: #124af4;
+}
+.services-top h2{
+    color: #ffab00;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+.services-top h1{
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 400;
+    max-width: 1024px;
+}
+.services-top p{
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-top: 40px;
+    max-width: 750px;
+}
+@media screen and (max-width: 1280px){
+
+    .mainData .right img{
+        width: 28rem;
+    }
+    .mainData .right{
+        margin-top: 20px;
+    }
+    .mainData .left-top img{
+        max-width: 50px;
+        height: 50px;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 12.5px;
+    }
+    .details-box p{
+        font-size: 12px;
+    }
+    .services-top h1{
+        font-size: 40px;
+    }
+    .services-top p{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .mainData{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .mainData .left{
+        width: 60%;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainData .right{
+        padding: 15px 0;
+        width: 60%;
+    }
+
+    
+
+    
+}
+@media screen and (max-width: 768px){
+    .mainData .left, .mainData .right{
+        width: 100%;
+    }
+    
+    .mainData .right img{
+        width: 100%;
+    }
+    
 }
