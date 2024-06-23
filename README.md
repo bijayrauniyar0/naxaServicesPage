@@ -13,7 +13,7 @@ This is a React application that displays a list of services.
 Make sure you have the following installed on your machine:
 
 - Node.js (>= 12.0.0)
-- npm (>= 6.0.0) or yarn (>= 1.22.0)
+- npm (>= 6.0.0)
 
 ## Getting Started
 
@@ -25,10 +25,10 @@ Follow these steps to set up and run the application:
    git clone https://github.com/bijayrauniyar0/naxaServicesPage.git
    cd naxaServicesPage
 
-2. ** Install Dependencies: **
+2.  **Install the Dependencies**
     npm install
 
-3. Run the appication
+3.  **Run the application**
     npm run dev
 
 
