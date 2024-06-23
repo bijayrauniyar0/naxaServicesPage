@@ -32,4 +32,4 @@ Follow these steps to set up and run the application:
     npm run dev
 
 
-![alt text](https://github.com/bijayrauniyar0/naxaServicesPage/blob/main/src/assets/screenshot.png "Screenshot of page")
+![alt text](https://github.com/bijayrauniyar0/naxaServicesPage/blob/main/src/assets/pageScreenShot.png "Screenshot of page")
