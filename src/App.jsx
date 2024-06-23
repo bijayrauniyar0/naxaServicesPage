@@ -1,13 +1,8 @@
-import './App.css'
+import "./App.css";
+import ServiceListComponent from "./components/service-component";
 
 function App() {
-
-
-  return (
-    <>
-      
-    </>
-  )
+  return <ServiceListComponent />;
 }
 
-export default App
+export default App;
