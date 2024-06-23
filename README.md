@@ -1,8 +1,32 @@
-# React + Vite
+# React Service List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that displays a list of services.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Conditionally render service components based on screen width.
+- Display services with left or right images based on service order.
+- Responsive design that adapts to different screen sizes.
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- Node.js (>= 12.0.0)
+- npm (>= 6.0.0) or yarn (>= 1.22.0)
+
+## Getting Started
+
+Follow these steps to set up and run the application:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/bijayrauniyar0/naxaServicesPage.git
+   cd naxaServicesPage
+
+2. ** Install Dependencies: **
+    npm install
+
+3. Run the appication
+    npm run dev
