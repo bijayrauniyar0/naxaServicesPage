@@ -1,4 +1,3 @@
-//Really sad to use legacy_createStore which is deprecated but the redux saga itself is deprecated so it is what it is sadly
 import {
   applyMiddleware,
   combineReducers,
@@ -13,9 +12,10 @@ const rootReducer = combineReducers({
 });
 
 const sagaMiddleware = createSagaMiddleware();
-//@ts-expect-error TODO fix later
+
 const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));
 
 sagaMiddleware.run(rootSaga);
 
 export default store;
+

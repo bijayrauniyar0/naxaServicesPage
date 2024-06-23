@@ -30,3 +30,6 @@ Follow these steps to set up and run the application:
 
 3. Run the appication
     npm run dev
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
