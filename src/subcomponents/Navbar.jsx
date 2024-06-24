@@ -50,7 +50,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="right-nav">
-                <button className='nav-btn'>Let's Talk</button>
+                <button className='nav-btn'>Let's Talk <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="toggle">
                 <i class="fa-solid fa-bars" onClick={toggleNavbar}></i>

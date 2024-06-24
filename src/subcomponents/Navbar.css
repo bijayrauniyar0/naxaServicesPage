@@ -84,14 +84,31 @@
     background-color: #ffdc1c;
     color: #05f;
     border: #ffdc1c ;
-    padding: 10px 45px;
-    font-size: 1rem;
+    padding: 10px 30px;
+    width:160px;
+    font-size: 0.938rem;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    transition: padding .3s ease;
+    font-weight: 600;
+
 }
 .nav .right-nav button:hover{
     background-color: #ffa01c;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
    
 }
+.nav .right-nav button i{
+    display: none;
+}
+.nav .right-nav button:hover i{
+    display: block;
+}
+
 .toggle{
     position: absolute;
     right: 50px;
