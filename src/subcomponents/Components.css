@@ -49,15 +49,18 @@ p{
     font-size: .938rem;
   
 }
-.services-top{
-    width: 85%;
-    margin: 0 auto;
-    padding: 0 15px;
+.services-head{
     background: url(../assets/bgImage.jpg);
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: 100% 0 !important;
     background-color: #fff !important;
+    width: 100%;
+}
+.services-top{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .blue-color{
     color: #124af4;

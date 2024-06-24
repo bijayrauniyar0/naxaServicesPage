@@ -1,0 +1,13 @@
+<svg id="books" xmlns="http://www.w3.org/2000/svg" width="44.643" height="51.753" viewBox="0 0 44.643 51.753">
+  <path id="Path_3666" data-name="Path 3666" d="M60.583,40.559,48.545,78.82l28.939,9.105,9.9-31.461L82.645,47.5Z" transform="translate(-42.74 -36.172)" fill="#738dff"/>
+  <path id="Path_3667" data-name="Path 3667" d="M106.609,60.64l-4.737-8.964-2.139,6.8Z" transform="translate(-61.966 -40.347)" fill="#a0aeff"/>
+  <path id="Path_3668" data-name="Path 3668" d="M0,0H30.338V40.11H0Z" transform="translate(0 5.673) rotate(-10.782)" fill="#c6cbff"/>
+  <path id="Path_3669" data-name="Path 3669" d="M52.209,44.918H80.941v40.11H52.209Z" transform="translate(-44.116 -37.809)" fill="#05f"/>
+  <g id="Group_4515" data-name="Group 4515" transform="translate(8.093 7.109)">
+    <path id="Path_3670" data-name="Path 3670" d="M52.209,44.918h4.159v40.11H52.209Z" transform="translate(-52.209 -44.918)" fill="#ffab00"/>
+    <path id="Path_3671" data-name="Path 3671" d="M70.07,54.634h10.6v1.093H70.07Z" transform="translate(-58.918 -48.567)" fill="#ffab00"/>
+    <path id="Path_3672" data-name="Path 3672" d="M67.959,58.892H81.193v1.093H67.959Z" transform="translate(-58.125 -50.167)" fill="#ffab00"/>
+    <path id="Path_3673" data-name="Path 3673" d="M70.07,63.15h10.6v1.093H70.07Z" transform="translate(-58.918 -51.766)" fill="#ffab00"/>
+    <path id="Path_3674" data-name="Path 3674" d="M69.116,85.1H81.628v5.553H69.116Z" transform="translate(-58.559 -60.012)" fill="#ffdc1c"/>
+  </g>
+</svg>

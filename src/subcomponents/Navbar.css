@@ -1,0 +1,117 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: 0 110px 50px;
+    padding: 10px 15px 40px;
+    
+}
+.nav .nav-logo{
+    max-width: 120px;
+}
+.nav .nav-logo img{
+    width: 120px;
+    height: auto;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.nav-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 80px;
+}
+.nav-links ul li{
+    list-style: none;
+    padding: 15px 30px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    font-size: 0.938rem;
+}
+.nav-links ul li span{
+    display: flex;
+    align-items: center;
+}
+.nav-links ul li span i{
+    margin-left: 5px;
+    font-size: 0.5rem;
+
+}
+.nav-links ul ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: center; */
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.216);
+    position: absolute;
+    display: none;
+    top: 45px;
+    left: -70px;
+
+}
+.nav-links ul li ul li {
+    padding: 15px 10px;
+    width: 335px;
+    background-color: white; /* Initial background color */
+    transition: .5s ease-in-out; /* Only transition background color */
+}
+
+.nav-links ul li ul li a{
+    display: flex;
+    align-items: center;
+}
+.nav-links ul li ul li a img{
+    width: 30px;
+    height: auto;
+    margin-right: 8px;
+}
+.nav-links ul li:hover ul{
+    display: block;
+}
+.nav-links ul li ul li:hover {
+    background-color: #ffdd1cb8; /* Hover state background color */
+}
+
+.nav .right-nav button{
+    background-color: #ffdc1c;
+    color: #05f;
+    border: #ffdc1c ;
+    padding: 10px 45px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nav .right-nav button:hover{
+    background-color: #ffa01c;
+   
+}
+@media only screen and (max-width: 1560px) {
+    .nav-links ul li{
+        padding: 10px 25px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .nav-links ul li{
+        font-size: 0.625rem;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .nav-links ul{
+       
+        margin: 0 40px;
+    }
+    .nav-links ul li{
+        padding: 6px 15px;
+    }
+    .nav .right-nav button{
+        font-size: 0.625rem;
+        padding: 8px 25px;
+    }
+}
