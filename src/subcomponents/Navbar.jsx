@@ -11,6 +11,10 @@ import logo7 from '../assets/logo7.svg'
 
 
 const Navbar = () => {
+    function toggleNavbar() {
+        const nav = document.querySelector('.nav');
+        nav.classList.toggle('active');
+    }
   return (
     <>
         <div className='nav'>
@@ -47,6 +51,9 @@ const Navbar = () => {
             </div>
             <div className="right-nav">
                 <button className='nav-btn'>Let's Talk</button>
+            </div>
+            <div className="toggle">
+                <i class="fa-solid fa-bars" onClick={toggleNavbar}></i>
             </div>
         </div>
     </>
