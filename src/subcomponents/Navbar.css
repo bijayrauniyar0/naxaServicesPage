@@ -98,6 +98,7 @@
     top: 10px;
     color: #ffa01c;
     font-size: 1.5rem;
+    display: none;
 }
 @media only screen and (max-width: 1560px) {
     .nav-links ul li{
@@ -151,6 +152,9 @@
     .nav-links ul li ul li a img{
         width: 20px;
         margin-right: 6px;
+    }
+    .toggle{
+        display: block;
     }
     .nav.active{
         height: 400px;
