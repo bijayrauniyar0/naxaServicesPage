@@ -26,9 +26,13 @@ Follow these steps to set up and run the application:
    cd naxaServicesPage
 
 2.  **Install the Dependencies**
+
+    ```
     npm install
 
 3.  **Run the application**
+
+    ```
     npm run dev
 
 
